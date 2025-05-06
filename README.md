@@ -15,7 +15,9 @@ This is a beginner-level project to understand and practice writing Kubernetes Y
 2. Apply the YAML files using:
    
     kubectl apply -f pod.yaml
+   
     kubectl apply -f deployment.yaml
+   
     kubectl apply -f service.yaml
 
 4. Use kubectl get all to see your running resources.
@@ -26,6 +28,7 @@ These files are written for learning purposes.
 You can edit labels/selectors to see how changes affect connectivity between services and pods.
 
 ** Requirements**
+
 Basic knowledge of terminal/CLI
 
 Kubernetes installed (Minikube or other local cluster)
