@@ -13,13 +13,12 @@ This is a beginner-level project to understand and practice writing Kubernetes Y
 
 1. Make sure you have **kubectl** and **Minikube** or a Kubernetes cluster set up.
 2. Apply the YAML files using:
+   
+    kubectl apply -f pod.yaml
+    kubectl apply -f deployment.yaml
+    kubectl apply -f service.yaml
 
-```bash
-kubectl apply -f pod.yaml
-kubectl apply -f deployment.yaml
-kubectl apply -f service.yaml
-
-3.Use kubectl get all to see your running resources.
+4. Use kubectl get all to see your running resources.
 
 💡 Notes
 These files are written for learning purposes.
@@ -30,5 +29,7 @@ You can edit labels/selectors to see how changes affect connectivity between ser
 Basic knowledge of terminal/CLI
 
 Kubernetes installed (Minikube or other local cluster)
+
+
 
 
